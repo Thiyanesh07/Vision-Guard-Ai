@@ -1,0 +1,54 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Models
+*.pt
+*.onnx
+*.engine
+models/
+
+# Data
+data/
+frames/
+*.jpg
+*.png
+*.mp4
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Alembic
+database/migrations/versions/*
+!database/migrations/versions/.gitkeep
+!database/migrations/versions/0001_create_incidents_table.py
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MinIO data
+minio-data/

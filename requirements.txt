@@ -1,0 +1,42 @@
+# FastAPI and Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+
+# Database
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+geoalchemy2==0.14.2
+alembic==1.12.1
+psycopg2-binary==2.9.9
+
+# Redis and Celery
+redis==5.0.1
+celery==5.3.4
+
+# Computer Vision
+opencv-python==4.8.1.78
+numpy==1.26.4
+onnxruntime-gpu==1.17.0
+
+# PyTorch with CUDA 12.1 support (compatible with CUDA 12.6)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.2.0+cu121
+torchvision==0.17.0+cu121
+
+# Ultralytics for YOLOv11
+ultralytics==8.1.0
+
+# Object Storage
+minio==7.2.0
+
+# Configuration
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# HTTP Requests
+requests==2.31.0
+
+# Utilities
+shapely==2.0.2
